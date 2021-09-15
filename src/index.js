@@ -33,18 +33,9 @@ let hex3tint = getRandomInt(256);
 
 function getTriadicColor(){
   arrTriadic.push(<Color hex1={hex1Triadic} hex2={hex2Triadic} hex3={hex3Triadic}/>)
-  ColorChange = hex1Triadic;
-  ColorChange2 = hex2Triadic;
-  ColorChange3 = hex3Triadic;
-  hex1Triadic = ColorChange3;
-  hex2Triadic = ColorChange;
-  hex3Triadic = ColorChange2;
-  arrTriadic.push()
-  arrTriadic.push(<Color hex1={hex1Triadic} hex2={hex2Triadic} hex3={hex3Triadic}/>)
-  hex1Triadic = ColorChange2;
-  hex2Triadic = ColorChange3;
-  hex3Triadic = ColorChange;
-  arrTriadic.push(<Color hex1={hex1Triadic} hex2={hex2Triadic} hex3={hex3Triadic}/>)
+  arrTriadic.push(<Color hex1={hex3Triadic} hex2={hex1Triadic} hex3={hex2Triadic}/>)
+
+  arrTriadic.push(<Color hex1={hex2Triadic} hex2={hex3Triadic} hex3={hex1Triadic}/>)
 }
 function getShadesColor(){
   let special1 = (hex1Shades-10)/6
