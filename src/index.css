@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.mainDiv{
+  width: 100%;
+  height: 150vh;
+  margin-top: 25vh;
+}
+.color{
+  width: 50%;
+  margin-left: 25%;
+  height: 10vh;
+}
+.triadic{
+  width: 70%;
+  height: 200px;
+  border-width: 0.5vh;
+  margin-left: 20vh;
+  display: flex;
+  justify-content: space-between;
+
+}
+.zag1{
+  font-size: 3vh;
+  margin-left: 75vh;
+}
+.zag2{
+  font-size: 3vh;
+  margin-left: 75vh;
+  margin-top: 20vh;
+}
+.zag3{
+  font-size: 3vh;
+  margin-left: 80vh;
+  margin-top: 20vh;
+}
+.shades{
+  width: 70%;
+  height: 200px;
+  border-width: 0.5vh;
+  margin-left: 20vh;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
+.tint{
+  width: 70%;
+  height: 200px;
+  border-width: 0.5vh;
+  margin-left: 20vh;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+}
