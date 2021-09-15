@@ -10,7 +10,6 @@ export default class Color extends React.Component{
       backgroundColor: `rgb(${hex1},${hex2},${hex3})`,
       height:100,
       width:200,
-
     }
 
     return <div className='TriadicMain' style={st}></div>

@@ -52,6 +52,9 @@ function getTintColor(){
   let special1 = hex1tint/6
   let special2 = hex2tint/6
   let special3 = hex3tint/6
+  console.log(hex1tint)
+  console.log(hex2tint)
+  console.log(hex3tint)
   for(let i = 0;i<6;i++){
     if(hex1tint+special1<255){
       hex1tint = hex1tint + special1;
@@ -62,7 +65,9 @@ function getTintColor(){
       hex3tint = hex3tint + special1;
     }
     arrTint.push(<Color hex1={hex1tint} hex2={hex2tint} hex3={hex3tint}/>)
-    
+    console.log(hex1tint)
+    console.log(hex2tint)
+    console.log(hex3tint)
   }
 }
 // голова не работает поэтому такой ужасный говнокод, извините это самый быстрый способ которым я смог это сделать
@@ -74,6 +79,12 @@ getTriadicColor();
 
 ReactDOM.render(
   <div className="mainDiv">
+    <div className="nav">
+      <div className="navTxt">
+        React Practice, Color stuff
+      </div>
+    </div>
+    <div className="triadicSpace">
     <div className="zag1">
           <h1>Triadic</h1>
     </div>
@@ -82,6 +93,8 @@ ReactDOM.render(
           arrTriadic
         }
     </div>
+    </div>
+    <div className="triadicSpace">
     <div className="zag2">
           <h1>shades</h1>
     </div>
@@ -90,6 +103,8 @@ ReactDOM.render(
           arrShades
         }
     </div>
+    </div>
+    <div className="triadicSpace">
     <div className="zag3">
           <h1>Tint</h1>
     </div>
@@ -97,6 +112,7 @@ ReactDOM.render(
         {
           arrTint
         }
+    </div>
     </div>
   </div>,
   document.querySelector(".app")

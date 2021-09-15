@@ -9,7 +9,6 @@ body {
 .mainDiv{
   width: 100%;
   height: 150vh;
-  margin-top: 25vh;
 }
 .color{
   width: 50%;
@@ -20,30 +19,37 @@ body {
   width: 70%;
   height: 200px;
   border-width: 0.5vh;
-  margin-left: 20vh;
+  margin-left: 28vh;
   display: flex;
   justify-content: space-between;
+  margin-top: 10vh;
 
+}
+.triadicSpace{
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(5, 239, 218,.10);
+  border-radius: 5vh;
 }
 .zag1{
   font-size: 3vh;
-  margin-left: 75vh;
+  margin-left: 83vh;
 }
 .zag2{
   font-size: 3vh;
-  margin-left: 75vh;
+  margin-left: 83vh;
   margin-top: 20vh;
 }
 .zag3{
   font-size: 3vh;
-  margin-left: 80vh;
+  margin-left: 88vh;
   margin-top: 20vh;
 }
 .shades{
   width: 70%;
   height: 200px;
   border-width: 0.5vh;
-  margin-left: 20vh;
+  margin-left: 28vh;
   margin-top: 5vh;
   display: flex;
   justify-content: space-between;
@@ -52,8 +58,24 @@ body {
   width: 70%;
   height: 200px;
   border-width: 0.5vh;
-  margin-left: 20vh;
+  margin-left: 28vh;
   margin-top: 5vh;
   display: flex;
   justify-content: space-between;
+}
+.nav{
+  width: 80%;
+  height: 10vh;
+  background-color: #222;
+  border-bottom-left-radius: 6vh;
+  border-bottom-right-radius: 6vh;
+  margin-left: 18vh;
+}
+.navTxt{
+  width: 100vh;
+  height: 10vh;
+  align-items: center;
+  font-size: 5.5vh;
+  color: white;
+  margin-left: 38vh;
 }
